@@ -21,4 +21,6 @@ server.use(rules);
 server.use(auth);
 server.use(router);
 
-server.listen(port);
+server.listen(port, () => {
+    console.log(`Listening to port ${port}`);
+});
