@@ -21,7 +21,6 @@
   ],
   "conversations": [
     {
-      "id": 1,
       "participants": "sojib@gmail.com-shahin@gmail.com",
       "users": [
         {
@@ -31,15 +30,16 @@
         },
         {
           "email": "shahin@gmail.com",
+          "password": "$2a$10$sF3AFE0XBsvYcYweb4Ms9.a5XCMQy6urHhmj.oPBsZ3r7QseiFKcG",
           "name": "Shahin",
-          "id": 2
+          "id": 3
         }
       ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
+      "message": "Hello, Shahin. How are you?",
+      "timestamp": 1664038640161,
+      "id": 1
     },
     {
-      "id": 2,
       "participants": "sojib@gmail.com-shimul@gmail.com",
       "users": [
         {
@@ -49,128 +49,15 @@
         },
         {
           "email": "shimul@gmail.com",
+          "password": "$2a$10$7M.EhW8q33BrAy4ra5qwneSRd1cXAYXL7Pdl8Yva3oAaRG37BPajW",
           "name": "Shimul",
-          "id": 3
+          "id": 2
         }
       ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 3,
-      "participants": "shahin@gmail.com-shimul@gmail.com",
-      "users": [
-        {
-          "email": "shahin@gmail.com",
-          "name": "Shahin",
-          "id": 1
-        },
-        {
-          "email": "shimul@gmail.com",
-          "name": "Shimul",
-          "id": 3
-        }
-      ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
+      "message": "Hello, Shimul. How are you?",
+      "timestamp": 1664038690458,
+      "id": 2
     }
   ],
-  "messages": [
-    {
-      "id": 1,
-      "conversationId": 1,
-      "sender": {
-        "email": "sojib@gmail.com",
-        "name": "Sojib",
-        "id": 1
-      },
-      "receiver": {
-        "email": "shahin@gmail.com",
-        "name": "Shahin",
-        "id": 2
-      },
-      "message": "Hello",
-      "timestamp": 1661976143557
-    },
-    {
-      "id": 2,
-      "conversationId": 1,
-      "sender": {
-        "email": "shahin@gmail.com",
-        "name": "Shahin",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sojib@gmail.com",
-        "name": "Sojib",
-        "id": 1
-      },
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 3,
-      "conversationId": 1,
-      "sender": {
-        "email": "shimul@gmail.com",
-        "name": "Shimul",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sojib@gmail.com",
-        "name": "Sojib",
-        "id": 1
-      },
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 4,
-      "conversationId": 1,
-      "sender": {
-        "email": "sojib@gmail.com",
-        "name": "Sojib",
-        "id": 2
-      },
-      "receiver": {
-        "email": "shimul@gmail.com",
-        "name": "Shimul",
-        "id": 1
-      },
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 5,
-      "conversationId": 1,
-      "sender": {
-        "email": "shahin@gmail.com",
-        "name": "Shahin",
-        "id": 2
-      },
-      "receiver": {
-        "email": "shimul@gmail.com",
-        "name": "Shimul",
-        "id": 1
-      },
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    },
-    {
-      "id": 6,
-      "conversationId": 1,
-      "sender": {
-        "email": "shimul@gmail.com",
-        "name": "Shimul",
-        "id": 2
-      },
-      "receiver": {
-        "email": "shahin@gmail.com",
-        "name": "Shahin",
-        "id": 1
-      },
-      "message": "How are you?",
-      "timestamp": 1661976143678
-    }
-  ]
+  "messages": []
 }
