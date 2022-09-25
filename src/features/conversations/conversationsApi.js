@@ -47,12 +47,8 @@ export const conversationsApi = apiSlice.injectEndpoints({
                 if (conversation?.data?.id) {
                     // silent entry to message table
                     const users = arg.data.users;
-                    const senderUser = users.find(
-                        (user) => user.email === arg.sender
-                    );
-                    const receiverUser = users.find(
-                        (user) => user.email !== arg.sender
-                    );
+                    const senderUser = users.find((user) => user.email === arg.sender);
+                    const receiverUser = users.find((user) => user.email !== arg.sender);
 
                     dispatch(
                         messagesApi.endpoints.addMessage.initiate({
