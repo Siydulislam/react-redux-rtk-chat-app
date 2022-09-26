@@ -23,20 +23,20 @@ export default function ChatItems() {
     };
 
     useEffect(() => {
-        if (totalCount > 0) {
-            const more = Math.ceil(totalCount / Number(process.env.REACT_APP_CONVERSATIONS_PER_PAGE)) > page;
-
-            setHasMore(more);
-        }
-    }, [totalCount, page]);
-
-    useEffect(() => {
         if (page > 1) {
             dispatch(
                 conversationsApi.endpoints.getMoreConversations.initiate({ email, page })
             );
         }
     }, [page, email, dispatch]);
+
+    useEffect(() => {
+        if (totalCount > 0) {
+            const more = Math.ceil(totalCount / Number(process.env.REACT_APP_CONVERSATIONS_PER_PAGE)) > page;
+
+            setHasMore(more);
+        }
+    }, [totalCount, page]);
 
     // decide what to render
     let content = null;
